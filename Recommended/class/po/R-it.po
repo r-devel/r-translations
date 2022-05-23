@@ -1,0 +1,64 @@
+# R Italian translation                                                                                                                                        
+# This file is distributed under the same license as the R package.
+# Copyright (C) The R Foundation.
+# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: class 7.3-14\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2020-03-25 07:35\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+msgid "wrong plot method used"
+msgstr "metodo di plot utilizzato è sbagliato"
+
+msgid "'SOM' called with no data"
+msgstr "'SOM' chiamato senza dati"
+
+msgid "'radii' must be a list of the same length as 'alpha'"
+msgstr "'radii' dev'essere una lista della medesima lunghezza di 'alpha'"
+
+msgid "'alpha' and 'radii' do not have the same lengths"
+msgstr "'alpha' e 'radii' non hanno la medesima lunghezza"
+
+msgid "'alpha' and 'radii' do not match"
+msgstr "'alpha' e 'radii' non corrispondono"
+
+msgid "no missing values are allowed"
+msgstr "i valori mancanti non sono ammessi"
+
+msgid "'train' and 'class' have different lengths"
+msgstr "'train' e 'class' hanno lunghezze differenti"
+
+msgid "dims of 'test' and 'train' differ"
+msgstr "le dimensioni di 'test' e 'train' differiscono"
+
+msgid "k = %d exceeds number %d of patterns"
+msgstr "k = %d eccede il numero %d dei pattern"
+
+msgid "k = %d must be at least 1"
+msgstr "k = %d dev'essere almeno 1"
+
+msgid "'x' and 'cl' have different lengths"
+msgstr "'x' e 'cl' hanno lunghezze differenti"
+
+msgid "invalid 'prior'"
+msgstr "'prior' non valido"
+
+msgid "'prior' is of incorrect length"
+msgstr "'prior' è di lunghezza incorretta"
+
+msgid "retained set is now too small to proceed"
+msgstr "il set conservato è ora troppo piccolo per procedere"
+
+msgid "pass %s size %d"
+msgstr "passa %s dimensione %d"

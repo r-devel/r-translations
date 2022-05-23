@@ -1,0 +1,69 @@
+# Korean translation for R class package
+# Recommended/class/po/R-ko.po
+# Maintainer: Brian Ripley <ripley@stats.ox.ac.uk>
+#
+# This file is distributed under the same license as the R class package.
+# Chel Hee Lee <chl948@mail.usask.ca>, 2013-2015.
+#
+# Reviewing process is completed (26-JAN-2015)
+# The original source code is reviewed (26-JAN-2015)
+# QC: PASS
+# Freezing on 06-FEB-2015 for R-3.1.3
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: class 7.3-5\n"
+"POT-Creation-Date: 2012-10-08 10:54\n"
+"PO-Revision-Date: 2015-02-06 21:56-0600\n"
+"Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
+"Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "wrong plot method used"
+msgstr "사용된 플랏 메소드(plot method)가 잘못되었습니다."
+
+msgid "'SOM' called with no data"
+msgstr "데이터 없이 'SOM'이 호출되었습니다."
+
+msgid "'radii' must be a list of the same length as 'alpha'"
+msgstr "'radii'는 반드시 'alpha'와 같은 길이를 가지는 리스트(list)이어야 합니다."
+
+msgid "'alpha' and 'radii' do not have the same lengths"
+msgstr "'alpha'의 길이가 'radii'의 길이가 다릅니다."
+
+msgid "'alpha' and 'radii' do not match"
+msgstr "'alpha'와 'radii'가 서로 일치하지 않습니다."
+
+msgid "no missing values are allowed"
+msgstr "결측값들이 있어서는 안됩니다."
+
+msgid "'train' and 'class' have different lengths"
+msgstr "'train'의 길이와 'class'의 길이가 서로 다릅니다."
+
+msgid "dims of 'test' and 'train' differ"
+msgstr "'test'의 차원과 'train'의 차원이 서로 다릅니다."
+
+msgid "k = %d exceeds number %d of patterns"
+msgstr "입력된 k = %1$d는 패턴의 개수 %2$d를 초과합니다."
+
+msgid "k = %d must be at least 1"
+msgstr "k = %d는 반드시 적어도 1 이상이어야 합니다."
+
+msgid "'x' and 'cl' have different lengths"
+msgstr "'x'의 길이와 'cl'의 길이가 다릅니다."
+
+msgid "invalid 'prior'"
+msgstr "입력된 'prior'의 값이 올바르지 않습니다."
+
+msgid "'prior' is of incorrect length"
+msgstr "입력된 'prior'의 길이가 잘못되었습니다."
+
+msgid "retained set is now too small to proceed"
+msgstr "얻어진 세트(set)가 현재 너무 작아 더 이상 진행할 수 없습니다."
+
+msgid "pass %s size %d"
+msgstr "pass %s size %d"

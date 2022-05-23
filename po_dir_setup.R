@@ -1,12 +1,12 @@
-# path to library in checkout of R sources
+library(rvest)
+
+# path to library in checkout of R sources (from GitHub or svn)
 r_svn <- "../r-svn"
 src_lib <- file.path(r_svn, "src", "library")
 
-# N.B. This considers base packages only, need to extend to get po for
-# Recommended files as well
-
 # Get R version -----------------------------------------------------------
 
+## extract version from R sources
 ver <- readLines(file.path(r_svn, "VERSION"))
 ver <- gsub("(^[^ ]*).*", "\\1", ver)
 dir.create(ver, showWarnings = FALSE)
@@ -30,3 +30,21 @@ for (i in seq_along(po_dir)){
     gc()
 }
 
+# Download po directories for recommended packages ------------------------
+
+## get list of available tarballs for recommended packages
+rec_url <- file.path("https://cran.r-project.org/src/contrib", ver,
+                     "Recommended")
+rec_html <- read_html(rec_url)
+tar <- html_attr(html_nodes(rec_html, xpath="//a[contains(., '.tar.gz')]"),
+                 "href")
+rec_pkg <- gsub("([^_]+).*", "\\1", tar)
+dir.create("Recommended", showWarnings = FALSE)
+
+## download into temp file and extract po sub-directory (if present)
+tmp <- tempfile(fileext = ".tar.gz")
+for (i in seq_along(rec_pkg)){
+    message(tar[i])
+    download.file(file.path(cran, tar[i]), tmp)
+    system(paste0("tar -xvf ", tmp, " -C Recommended ", rec_pkg[i], "/po"))
+}

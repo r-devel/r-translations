@@ -1,0 +1,58 @@
+# R Italian translation                                                                    
+# This file is distributed under the same license as the R package.
+# Copyright (C) The R Foundation.
+# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: spatial 7.3-8\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2018-04-07 21:16\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+msgid "'np' exceeds 6"
+msgstr "'np' eccede 6"
+
+msgid "'x' does not have columns 'x', 'y' and 'z'"
+msgstr "'x' non ha le colonne 'x', 'y' e 'z'"
+
+msgid "some of '...' do not match"
+msgstr "alcuni '...' non corrispondono"
+
+msgid "rank failure in Choleski decomposition"
+msgstr "fallimento di rango nella decomposizione di Choleski"
+
+msgid "'object' is not a fitted trend surface"
+msgstr "'object' non è una superficie di trend aderente"
+
+msgid "'x' and 'y' differ in length"
+msgstr "'x' e 'y' differiscono in lunghezza"
+
+msgid "'object' not from kriging"
+msgstr "'object' non da kriging"
+
+msgid "'n' is too large"
+msgstr "'n' è troppo grande"
+
+msgid "object not from kriging"
+msgstr "oggetto non da kringing"
+
+msgid "Device not active"
+msgstr "Dispositivo non attivo"
+
+msgid "'x' not a fitted trend surface"
+msgstr "'x' non ha una superficie di trend aderente"
+
+msgid "some points outside region"
+msgstr "alcuni punti al di fuori della regione"
+
+msgid "invalid input"
+msgstr "input non valido"

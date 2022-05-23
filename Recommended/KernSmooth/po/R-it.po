@@ -1,0 +1,49 @@
+# R Italian translation                                                                    
+# Copyright (C) The R Foundation
+# This file is distributed under the same license as the R package.
+# Daniele Medri <dmedri@gmail.com>, 2005-2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KernSmooth 2.23-15\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2021-02-12 09:20\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
+"Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
+
+msgid "'bandwidth' must be strictly positive"
+msgstr "'bandwidth' dev'essere strettamente positivo"
+
+msgid "'canonical' must be a length-1 logical vector"
+msgstr ""
+
+msgid ""
+"Binning grid too coarse for current (small) bandwidth: consider increasing "
+"'gridsize'"
+msgstr ""
+"Griglia di binning troppo grande per la banda corrente (piccola): si prenda "
+"in considerazione l'incremento di 'gridsize'"
+
+msgid "Level should be between 0 and 5"
+msgstr "Il livello dovrebbe essere tra 0 e 5"
+
+msgid "scale estimate is zero for input data"
+msgstr "la stima della scala è zero per i dati di input"
+
+msgid "'bandwidth' must be a scalar or an array of length 'gridsize'"
+msgstr ""
+"'bandwidth' dev'essere uno scalare o un array della lunghezza 'gridsize'"
+
+msgid ""
+"KernSmooth 2.23 loaded\n"
+"Copyright M. P. Wand 1997-2009"
+msgstr ""
+"KernSmooth 2.23 caricato\n"
+"Copyright M. P. Wand 1997-2009"
