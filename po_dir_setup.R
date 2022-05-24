@@ -33,8 +33,8 @@ for (i in seq_along(po_dir)){
 # Download po directories for recommended packages ------------------------
 
 ## get list of available tarballs for recommended packages
-cran <- "https://cran.r-project.org/src/contrib"
-rec_url <- file.path(cran, ver, "Recommended")
+rec_url <- file.path("https://cran.r-project.org/src/contrib", ver,
+                     "Recommended")
 rec_html <- read_html(rec_url)
 tar <- html_attr(html_nodes(rec_html, xpath="//a[contains(., '.tar.gz')]"),
                  "href")
@@ -45,6 +45,6 @@ dir.create("Recommended", showWarnings = FALSE)
 tmp <- tempfile(fileext = ".tar.gz")
 for (i in seq_along(rec_pkg)){
     message(tar[i])
-    download.file(file.path(cran, tar[i]), tmp)
+    download.file(file.path(rec_url, tar[i]), tmp)
     system(paste0("tar -xvf ", tmp, " -C Recommended ", rec_pkg[i], "/po"))
 }
