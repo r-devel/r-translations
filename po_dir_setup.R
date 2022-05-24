@@ -45,6 +45,6 @@ dir.create("Recommended", showWarnings = FALSE)
 tmp <- tempfile(fileext = ".tar.gz")
 for (i in seq_along(rec_pkg)){
     message(tar[i])
-    download.file(file.path(cran, tar[i]), tmp)
+    download.file(file.path(rec_url, tar[i]), tmp)
     system(paste0("tar -xvf ", tmp, " -C Recommended ", rec_pkg[i], "/po"))
 }
