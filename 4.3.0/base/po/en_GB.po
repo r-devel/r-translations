@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: R 2.1.0\n"
+"Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2022-01-14 11:27+0000\n"
-"PO-Revision-Date: 2008-02-18 11:38+0000\n"
-"Last-Translator: Prof Brian Ripley <ripley@stats.ox.ac.uk>\n"
+"PO-Revision-Date: 2022-05-24 11:38+0000\n"
+"Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: English\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
@@ -346,9 +346,9 @@ msgstr ""
 #: src/gnuwin32/sys-win32.c:291 src/modules/internet/libcurl.c:330
 #: src/modules/internet/libcurl.c:333 src/modules/internet/libcurl.c:336
 #: src/modules/internet/libcurl.c:341 src/modules/internet/libcurl.c:367
-#, fuzzy, c-format
+#, c-format
 msgid "invalid %s argument"
-msgstr "invalid hcl colour"
+msgstr ""
 
 #: src/gnuwin32/sys-win32.c:317 src/unix/sys-unix.c:800 src/unix/sys-unix.c:835
 #, c-format
@@ -1029,9 +1029,9 @@ msgid "argument is not a matrix"
 msgstr ""
 
 #: src/main/array.c:1706 src/main/attrib.c:1215
-#, fuzzy, c-format
+#, c-format
 msgid "invalid first argument, must be %s"
-msgstr "invalid hcl colour"
+msgstr ""
 
 #: src/main/array.c:1720
 #, c-format
@@ -1177,9 +1177,9 @@ msgid "length of 'dimnames' [%d] not equal to array extent"
 msgstr ""
 
 #: src/main/attrib.c:1217
-#, fuzzy, c-format
+#, c-format
 msgid "invalid second argument, must be %s"
-msgstr "invalid hcl colour"
+msgstr ""
 
 #: src/main/attrib.c:1225
 msgid "length-0 dimension vector is invalid"
@@ -3229,9 +3229,8 @@ msgid "not a symbol"
 msgstr ""
 
 #: src/main/envir.c:2072
-#, fuzzy
 msgid "first argument has length > 1"
-msgstr "invalid hcl colour"
+msgstr ""
 
 #: src/main/envir.c:2131
 #, c-format
@@ -4834,9 +4833,9 @@ msgid "first argument must be atomic or environment"
 msgstr ""
 
 #: src/main/paste.c:474
-#, fuzzy, c-format
+#, c-format
 msgid "invalid value %d for '%s' argument"
-msgstr "invalid hcl colour"
+msgstr ""
 
 #: src/main/paste.c:523
 msgid "'decimal.mark' must be a string of one character"
@@ -6789,7 +6788,7 @@ msgstr ""
 
 #: src/modules/X11/devX11.c:467
 msgid "cannot set grayscale: reverting to monochrome"
-msgstr ""
+msgstr "cannot set greyscale: reverting to monochrome"
 
 #: src/modules/X11/devX11.c:553
 msgid ""
@@ -7687,7 +7686,6 @@ msgstr ""
 #~ msgid "supplied color is not numeric nor character"
 #~ msgstr "supplied colour is not numeric nor character"
 
-#, fuzzy
 #~ msgid "invalid color specification"
 #~ msgstr "invalid colour specification"
 
