@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Translations from the Collaboration Campfire
+
+This repo provides translation files for the 
+"How to Contribute to a Translation Team" [Collaboration Campfire](https://contributor.r-project.org/events/collaboration-campfires).
+
+The `po_dir_setup.R` script provides code to 
+
+1. Extract the `po` directories from 
+a local copy of the R sources (e.g. a git checkout of r-devel/r-svn) and put 
+them in this repo in a directory named by the current version of R-devel.
+2. Download the source code for the recommended packages, extract the 
+corresponding `po` directories (if they exist for the package) and put them in 
+the `Recommended` directory of this repo.
+
+The `branch_setup.R` script provides code to set up branches for each language, 
+removing files for other languages for convenience.
+
+The `create-todo.R` script provides code to create an issue with a TODO list 
+for each language. The TODO is a checklist of all `.pot` files, checked off 
+if there exists a corresponding `.po` file for that language, with all 
+messages translated and none marked as fuzzy.
+
+The `check_progress.R` script provides code to check progress for a given 
+language, producing a table as follows
+
+```{r}
+lang <- "de"
+library(devtools)
+po_status <- source_url("https://raw.githubusercontent.com/r-devel/translations-campfire/main/check_progress.R")
+knitr::kable(po_status$value)
+```
+
