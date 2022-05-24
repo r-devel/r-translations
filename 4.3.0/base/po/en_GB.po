@@ -5348,7 +5348,7 @@ msgstr ""
 #: src/main/saveload.c:612 src/main/saveload.c:1283 src/main/serialize.c:1920
 #, c-format
 msgid "unrecognized internal function name \"%s\""
-msgstr ""
+msgstr "unrecognised internal function name \"%s\""
 
 #: src/main/saveload.c:714
 msgid "cannot save file position while restoring data"
