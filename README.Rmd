@@ -1,0 +1,23 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# British English Translations
+
+```{r}
+lang <- "en_GB"
+library(devtools)
+po_status <- source_url("https://raw.githubusercontent.com/r-devel/translations-campfire/main/check_progress.R")
+knitr::kable(po_status$value)
+```
+
+
